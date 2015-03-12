@@ -25,7 +25,7 @@ public class NewTask {
         //Устанавливаем завершение программы при закрытии окна
         jfrm.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         nameLabel = new JLabel("Name:");
-        name = new JTextField(16);
+        name = new JTextField(10);
         descriptionLabel = new JLabel("Description:");
         description = new JTextField();
         startDate = new JCalendar();
